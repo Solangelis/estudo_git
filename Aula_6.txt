@@ -1,0 +1,389 @@
+    1  python --version
+    2  ls
+    3  ls
+    4  cd aula-bootstrap/
+    5  ls
+    6  git add .
+    7  git commit -m "inclusão do projeto aula bootstrap"
+    8  git push origin master
+    9  git push origin main
+   10  ls
+   11  cd meu-projeto-netflix/
+   12  ls
+   13  cd recriando-a-interface-do-netflix/
+   14  ls
+   15  zsh
+   16  ls
+   17  ls -a
+   18  ls ..
+   19  pwd
+   20  ls
+   21  cd desktop/
+   22  pwd
+   23  cd ..
+   24  ls
+   25  cd desktop/
+   26  cd~
+   27  cd ~
+   28  cd desktop/
+   29  mkdir Comandos
+   30  ls
+   31  cd Comandos/
+   32  mkdir pasta otrapasta
+   33  ls
+   34  mkdir 'pasta nova'
+   35  ls
+   36  mkdir -p new/old
+   37  ls
+   38  ls new
+   39  rm -r nova pasta
+   40  rm -r pasta otrapasta
+   41  ls
+   42  rm -r new
+   43  ls
+   44  mv 'pasta nova' pasta_nova
+   45  ls
+   46  mkdir new
+   47  ls
+   48  mv new pasta_nova/
+   49  ls
+   50  cd pasta_nova/
+   51  ls
+   52  cd ..
+   53  touch arquivo.txt
+   54  ls past
+   55  cp arquivo.txt pasta_nova/
+   56  ls
+   57  ls pasta_nova/
+   58  echo 'Mensagem'
+   59  echo 'mensagem' > comando.txt
+   60  cat comando.txt 
+   61  cat
+   62  cat > comando.txt 
+   63  cat > comando.txt 
+   64  cat comando.txt 
+   65  cat > comando.txt 
+   66  cat comando.txt 
+   67  cat >> comando.txt 
+   68  cat comando.txt 
+   69  cat > comando.txt 
+   70  cat comando.txt 
+   71  clear
+   72  history
+   73  history 5
+   74  history 7
+   75  history > historico.tex
+   76  history > historico.txt
+   77  cat historico.txt
+   78  git config --global user.name 'solangelis'
+   79  git config --global user.email 'solangelis110493@gmail.com
+   80  git config --global user.email 'solangelis110493@gmail.com
+   81  git config --global user.name 'solangelis'
+   82  git config --global user.email 'solangelis110493@gmail.com'
+   83  git config user.name
+   84  ls
+   85  cd desktop/
+   86  cd ..
+   87  cd Desktop/
+   88  mkdir Curso_Git
+   89  cd Curso_Git/
+   90  git init
+   91  git status
+   92  echo '#Aprendendo usar o git' > readme.md
+   93  git status
+   94  git add readme.md
+   95  git status
+   96  git commit -m 'Commit inicial'
+   97  git status
+   98  echo '##Aula 1' >> readme.md
+   99  git status
+  100  echo 'solangelis' > participantes.txt
+  101  git status
+  102  git add .
+  103  git status
+  104  git restore --staged participantes.txt
+  105  git status
+  106  git add participantes.txt 
+  107  git status
+  108  git restore --staged .
+  109  git status
+  110  git commit -am 'Alteraçao no readme'
+  111  git status
+  112  git add participantes.txt 
+  113  git status
+  114  git commit -m 'Adicionando participantes.txt'
+  115  history > Aula_3.txt
+  116  git status
+  117  git add .
+  118  git commit -m 'Comandos da Aula 3'
+  119  git log
+  120  git log --stat
+  121  git log -p
+  122  git log --author= 'solangelis'
+  123  git log --author='solangelis'
+  124  git status
+  125  touch teste
+  126  git add teste
+  127  git status
+  128  git commit -m 'Commit de teste'
+  129  git log
+  130  git log --prettyoneline
+  131  git log --pretty=oneline
+  132  ls
+  133  cd Desktop
+  134  ls
+  135  cd Curso_Git
+  136  git branch
+  137  git checkout -b feature
+  138  git branch
+  139  toch Nova_feature
+  140  touch Nova_feature
+  141  git status
+  142  git add Nova_feature
+  143  git commit -m 'Adicionando nova feature'
+  144  git log
+  145  git checkout master
+  146  git status
+  147  touch Continuando_master
+  148  git add Continuando_master 
+  149  git commit -m 'Adicionando continuacao na master'
+  150  git log
+  151  git checkout feature
+  152  git log
+  153  git checkout -b feature2 master
+  154  git log
+  155  git checkout master
+  156  git branch -d feature2
+  157  git log
+  158  git init
+  159  git status
+  160  git status
+  161  ls
+  162  git status
+  163  ls
+  164  git status
+  165  git status
+  166  git add .
+  167  ls
+  168  git status
+  169  ls
+  170  git status
+  171  git init
+  172  ls
+  173  git status
+  174  git add .
+  175  git status
+  176  git commit 'adicionando novo documento'
+  177  git commit -m 'adicionando arquivo'
+  178  git status
+  179  git init
+  180  git branch feature
+  181  git branch
+  182  ls
+  183  git status
+  184  git checkout feature
+  185  ls
+  186  git log
+  187  git checkout master
+  188  git log
+  189  git merge master feature
+  190  git checkout
+  191  git checkout feature
+  192  git log
+  193  git status
+  194  git config --global alias.LOG'log --pretty=oneline'
+  195  git config alias.LOG 'log --pretty=oneline'
+  196  git log
+  197  git alias.LOG 'log --pretty=oneline'
+  198  git --global alias.LOG 'log --pretty=oneline'
+  199  git config alias.LOG 'log --pretty=oneline'
+  200  git log
+  201  git log
+  202  git lo --prretty=oneline
+  203  git log pretty=oneline
+  204  git log --pretty=oneline
+  205  git log --status
+  206  git log --stat
+  207  git status
+  208  git log -p
+  209  git status
+  210  git log --pretty=oneline
+  211  git checkout HEAD~~
+  212  git status
+  213  git log
+  214  ls
+  215  git checkout master
+  216  git checkout HEAD~
+  217  mkdir .vscode
+  218  touch config.txt
+  219  mv config.txt  .vscode/
+  220  ls
+  221  ls -a
+  222  git status
+  223  echo '.vscode/' > .gitignore
+  224  git status
+  225  git status
+  226  git branch toti/novo
+  227  git deleted toti/novo.txt
+  228  'git --help'.
+  229  git --help
+  230  git status
+  231  git rm 
+  232  git rm toti/novo.txt
+  233  git status
+  234  git checkout HEAD~
+  235  git branch -d master
+  236  git status
+  237  mkdir estudios
+  238  cd estudios/
+  239  mkdir git
+  240  cd ..
+  241  ls
+  242  cd
+  243  ls
+  244  cd estudios
+  245  ls
+  246  cd git
+  247  mkdir Comnandos
+  248  ls
+  249  rm -r Comnados
+  250  ls
+  251  rm -r Comnandos
+  252  ls
+  253  mkdir Comandos
+  254  ls
+  255  cd Comandos/
+  256  mkdir pasta nova
+  257  ls
+  258  mkdir "pasta nova"
+  259  ls
+  260  mkdir -p new/old
+  261  ls
+  262  ls 
+  263  ls new
+  264  rm -r nova pasta
+  265  rm -m new
+  266  ls
+  267  rm -r new
+  268  ls
+  269  mv 'pasta nova' pasta_nova
+  270  ls
+  271  mkdir new
+  272  ls
+  273  mv new pasta_nova/
+  274  ls
+  275  ls
+  276  ls pasta_nova/
+  277  ls
+  278  cd
+  279  cd estudios/git/Comandos/
+  280  touch arquivo.txt
+  281  ls
+  282  cp arquivo.txt pasta_nova/
+  283  ls
+  284  ls pasta_nova/
+  285  echo 'Mensagem'
+  286  git init
+  287  git status
+  288  ssh-keygen -t rsa -b 4096 -C "solangelis110493@.com"
+  289  git init
+  290  git add README.md
+  291  echo > README.md
+  292  git status
+  293  git commit -m "first commit"
+  294  git add README.md
+  295  ls
+  296  cd estudos
+  297  cd estudios/
+  298  cd 
+  299  cd ..
+  300  ls
+  301  cd solangelis/
+  302  mkdir
+  303  ls
+  304  cd pratica estudo/
+  305  git clone https://github.com/Solangelis/LivroDeReceitas.git
+  306  ls
+  307  cd LivroDeReceitas/
+  308  ls
+  309  cat README.md
+  310  git checkout -b "BoloTresLeite"
+  311  git branch
+  312  ls
+  313  git status
+  314  git pull
+  315  git add 
+  316  git add BoloTresLeite.txt 
+  317  git status
+  318  git add README.md 
+  319  git commit -m 'adicionando receita'
+  320  git push
+  321  git push origin BoloTresLeite 
+  322  git merge BoloTresLeite main
+  323  git push origin main
+  324  git add .
+  325  git commit -m 'adionando receita bolo abacaxi'
+  326  git push origin BoloTresLeite
+  327  git merge BoloTresLeite main
+  328  git push origin BoloTresLeite
+  329  git push origin main
+  330  git merge BoloTresLeite main
+  331  git status
+  332  git checkout -b bolo
+  333  git status
+  334  git status
+  335  git add .
+  336  git commit -m 'bolinho'
+  337  git merge bolo main
+  338  git push origin main
+  339  git merge main
+  340  git branch
+  341  git checkout bolo
+  342  git status
+  343  code .
+  344  git clone https://github.com/leticiavargas/LivroDeReceitas.git
+  345  git checkout -b bolo
+  346  cd LivroDeReceitas/
+  347  git checkout -b bolo
+  348  git status
+  349  git add .
+  350  git commit -m 'bolinho'
+  351  git push bolo
+  352  git push bolo main
+  353  git push or
+  354  git push bolo main
+  355  git push origin bolo
+  356  git status
+  357  git status
+  358  git add README.md 
+  359  git commit -m 'correçao do endereço'
+  360  git push bolo
+  361  git push origin bolo
+  362  git status
+  363  git add .
+  364  git commit -m 'adiciona mais receita'
+  365  git push origin bolo
+  366  git push origin bolo main
+  367  git push origin main
+  368  git merge main
+  369  git https://github.com/Solangelis/aula-bootstrap.git
+  370  git clone  https://github.com/Solangelis/aula-bootstrap.git
+  371  git status
+  372  git add .
+  373  git commit -m 'mais outras receitas'
+  374  git push origin bolo
+  375  git config --global alias. logpg 'log --pretty=oneline
+  376  git config --global alias. logpg 'log --pretty=oneline --graph'
+  377  git config --global alias.logpg 'log --pretty=oneline --graph'
+  378  git logpg
+  379  git config alias.CAM 'commit -am '
+  380  git tag
+  381  git tag -a v0.1
+  382  git tag
+  383  git logpg
+  384  git tag -a v0.1 -m 'Ate a aula 5'
+  385  git logpg
+  386  git checkout master
+  387  git rebase feature
+  388  git logpg
+  389  history > Aula_6.txt
